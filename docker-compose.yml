@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   urbanterror:
-    image: urbanterror
+    image: leandrosalvas:urbanterror
     volumes: 
       - ./config/:/home/urt/urbanterror43/config/
     ports:
