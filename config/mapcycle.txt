@@ -1,4 +1,3 @@
-sr8prac
 ut4_dust2
 ut4_iceworld
 ut_office

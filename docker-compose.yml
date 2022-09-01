@@ -2,5 +2,7 @@ version: "3.9"
 services:
   urbanterror:
     image: urbanterror
+    volumes: 
+      - ./config/:/home/urt/urbanterror43/config/
     ports:
       - "27960:27960/udp"
