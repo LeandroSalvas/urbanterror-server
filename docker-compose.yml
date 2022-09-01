@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  urbanterror:
+    image: urbanterror
+    ports:
+      - "27960:27960/udp"
