@@ -4,5 +4,6 @@ services:
     image: leandrosalvas/urbanterror
     volumes: 
       - ./config/:/home/urt/urbanterror43/config/
+      - ./logs/games.log:/home/urt/urbanterror43/q3ut4/games.log
     ports:
       - "27960:27960/udp"
